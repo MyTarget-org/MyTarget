@@ -1,0 +1,84 @@
+User-Agent: *
+
+Allow: /googleads.html
+Allow: /yandexdirect.html
+Allow: /yandexzen.html
+Allow: /analyticsforcontext.html
+Allow: /advertisingaudit.html
+Allow: /settinggoogleanalyticsandmetrics.html
+Allow: /context.html
+Allow: /automation.html
+Allow: /priceaggregators.html
+Allow: /socialnetworks.html
+Allow: /media.html
+Allow: /webanalytics.html
+Allow: /otheradvertising.html
+Allow: /notes.html
+Allow: /seo.html
+Allow: /segmentedstatistics.html
+Allow: /topmenuoftheautomationinterface.html
+Allow: /itemdetail.html
+Allow: /strategysettings.html
+Allow: /confidentialitytermsofuse.html
+Allow: /sitemap.html
+Allow: /contacts.html
+Allow: /jobs.html
+Allow: /ppcmanagerassistant.html 
+Allow: /ppcmanagerremotely.html
+Allow: /copywriterdigitalmarketingsales.html
+Allow: /smmmanager.html
+Allow: /targetedadvertisingmanagertargetologist.html
+Allow: /frontenddeveloperjavascriptprogrammer.html
+Allow: /analyst.html
+Allow: /webdesignerwebdesigner.html
+Allow: /presentationdesigner.html
+Allow: /projectmanageritwebmobile.html
+Allow: /blog.html
+Disallow:
+
+Host: https://www.mytarget.org/
+Sitemap: https://www.mytarget.org/sitemap.xml
+
+
+User-agent: Googlebot
+Allow: /googleads.html
+Allow: /yandexdirect.html
+Allow: /yandexzen.html
+Allow: /analyticsforcontext.html
+Allow: /advertisingaudit.html
+Allow: /settinggoogleanalyticsandmetrics.html
+Allow: /context.html
+Allow: /automation.html
+Allow: /priceaggregators.html
+Allow: /socialnetworks.html
+Allow: /media.html
+Allow: /webanalytics.html
+Allow: /otheradvertising.html
+Allow: /notes.html
+Allow: /seo.html
+Allow: /segmentedstatistics.html
+Allow: /topmenuoftheautomationinterface.html
+Allow: /itemdetail.html
+Allow: /strategysettings.html
+Allow: /confidentialitytermsofuse.html
+Allow: /sitemap.html
+Allow: /contacts.html
+Allow: /jobs.html
+Allow: /ppcmanagerassistant.html 
+Allow: /ppcmanagerremotely.html
+Allow: /copywriterdigitalmarketingsales.html
+Allow: /smmmanager.html
+Allow: /targetedadvertisingmanagertargetologist.html
+Allow: /frontenddeveloperjavascriptprogrammer.html
+Allow: /analyst.html
+Allow: /webdesignerwebdesigner.html
+Allow: /presentationdesigner.html
+Allow: /projectmanageritwebmobile.html
+Allow: /blog.html
+Disallow:
+
+Sitemap: https://www.mytarget.org/sitemap.xml
+
+
+
+

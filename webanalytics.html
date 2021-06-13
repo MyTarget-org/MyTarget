@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+    <title>Web-аналитика Для чего нужно применять веб-аналитику</title>
+    <!-- This site is optimized by the author's KLK writing html code. - https://www.mytarget.org/webanalytics.html -->
+    <!-- The Internet agency MyTarget contributes to solving the global problem of promoting search queries on the Internet according to Google Trends statistics. -->
+    <meta charset="utf-8">
+    <meta name="keywords" content="Web-аналитика Индивидуальный подход к автоматизации контекстной рекламы, html, MyTarget">
+    <meta name="description" content="Web-аналитика Как оптимизировать рекламную кампанию Web-аналитика Заказать контекстную рекламу">
+    <meta property="og:locale" content="ru_RU">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Web-аналитика автор KLK">
+    <meta property="og:url" content="https://www.mytarget.org/">
+    <meta property="og:site_name" content="Web-аналитика mytarget.org">
+    <meta property="og:description" content="Web-аналитика Как оптимизировать рекламную кампанию Web-аналитика Заказать контекстную рекламу">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#1a73e8">
+<link rel="shortcut icon" href="https://mytarget.org/favicon.png" type="image/png">
+<link rel="icon" href="https://mytarget.org/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<style>
+.ul {
+  list-style: none; /*убираем маркеры списка*/
+}
+.center-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+<!--
+.tab-font {
+    font-family: arial; /* sans-serif */
+    font-size: 16px;
+}
+-->
+h1 {
+    line-height: 40px; /* (40 межстрочный интервал) */
+   }
+h1 {
+   font-weight: normal; /*шрифт нежирный*/
+}
+h2 {
+    line-height: 32px; /* (32 межстрочный интервал) */
+}
+h2 {
+   font-weight: normal; /*шрифт нежирный*/
+}
+h3 {
+    line-height: 28px; /* (28 межстрочный интервал) */
+}
+h3 {
+     font-weight: normal; /*шрифт нежирный*/
+}
+li {
+    line-height: 24px;
+}
+p {
+   line-height: 24px;
+   }
+.p {
+    font-family: arial; /*roboto*/
+    font-size: 14px;
+    line-height: 20px;
+   }
+
+.hhh {
+    font-family: arial;
+    font-size: 19px;
+}
+.hh {
+    font-family: arial;
+    font-size: 24px;
+}
+
+<!--
+.tab { margin-left: 14px; margin-right: 14px; margin-bottom: 38px;}
+-->
+.colortext { color: #1a73e8; } /* светло-синий MY цвет выделения #34a853; - зеленый */
+.colortextlogo { color: #1a73e8; } /* темно-синий TARGET цвет выделения до 08.11.20 (#1477c6;) (#1a73e8;) */
+.colortextbody { color: #202124; } /* черно-серый шрифт цвет google выделения */
+A {
+text-decoration: none; /* Убирает подчеркивание для ссылок */
+color: #1a73e8;
+}
+A:hover {
+ text-decoration: underline; /* Добавляем подчеркивание при наведении курсора на ссылку */
+ color: #1a73e8; /* Ссылка цвета */
+}
+.distancetext { word-spacing: 8px } /* Ростояние текста между языками */
+.textcenter { text-align: center; }
+.main { /* основное содержимое */
+  position: relative; /* - боковая колонка перемещается в рамках основного содержания */
+  margin: 0 auto; /* сайт располагается по центру экрана */
+  max-width: 1028px; /* резиновая, растягивается до значения в 1100px */
+  padding: 14px; /* = боковая колонка + отступ в 2px */
+}
+/*меню*/
+	nav{ padding-top: 20px; }
+	nav a{ padding: 30px; }
+/*заголовок*/
+H1 { text-align: center }
+H2 { text-align: center }
+/* стиль кнопки Google */
+a.button15 {
+  display: inline-block;
+  font-family: arial,sans-serif;
+  font-size: 11px;    /* было font-size: 11px;  */
+  font-weight: bold;   /* было font-weight: bold;  */
+  color: rgb(68,68,68);
+  text-decoration: none;
+  user-select: none;
+  padding: .2em 1.2em;
+  outline: none;
+  border: 1px solid rgba(0,0,0,.1);
+  border-radius: 2px;
+  background: rgb(245,245,245) linear-gradient(#f4f4f4, #f1f1f1);
+  transition: all .218s ease 0s;
+  line-height: 27px;
+/* стиль кнопки Google + !!! не добавил: line-height: 27px; ((11*27 межстрочный интервал) текста)*/
+}
+a.button15:hover {
+  color: rgb(24,24,24);
+  border: 1px solid rgb(198,198,198);
+  background: #f7f7f7 linear-gradient(#f7f7f7, #f1f1f1);
+  box-shadow: 0 1px 2px rgba(0,0,0,.1);
+}
+a.button15:active {
+  color: rgb(51,51,51);
+  border: 1px solid rgb(204,204,204);
+  background: rgb(238,238,238) linear-gradient(rgb(238,238,238), rgb(224,224,224));
+  box-shadow: 0 1px 2px rgba(0,0,0,.1) inset;
+}
+/* стиль кнопки скачать */
+a.button13 {
+  display: inline-block;
+  width: 15em;
+  font-size: 80%;
+  color: rgba(255,255,255,.9);
+  text-shadow: #2e7ebd 0 1px 2px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 1.1;
+  white-space: pre-line;
+  padding: .7em 0;
+  border: 1px solid;
+  border-color: #60a3d8 #2970a9 #2970a9 #60a3d8;
+  border-radius: 6px;
+  outline: none;
+  background: #60a3d8 linear-gradient(#89bbe2, #60a3d8 50%, #378bce);
+  box-shadow: inset rgba(255,255,255,.5) 1px 1px;
+}
+a.button13:first-line{
+  font-size: 170%;
+  font-weight: 700;
+}
+a.button13:hover {
+  color: rgb(255,255,255);
+  background-image: linear-gradient(#9dc7e7, #74afdd 50%, #378bce);
+}
+a.button13:active {
+  color: rgb(255,255,255);
+  border-color: #2970a9;
+  background-image: linear-gradient(#5796c8, #6aa2ce);
+  box-shadow: none;
+}
+/* меню соц сети (16*16 картинки) */
+/*     <a href="#" class="button5" data-twitter> twitter </a>
+       <a href="#" class="button5" data-vk> vk </a>
+       <a href="#" class="button5" data-facebook> facebook </a>
+*/
+a.button5 {
+  display: inline-block;
+  color: #000;
+  font-size: 13px;  /* шрифт был 12 px*/
+  line-height: 14px; /*  добавил строчку (line-height: 14px;) */
+  text-decoration: none;
+  user-select: none;
+  padding: 0 5px;
+  outline: none;
+  border-radius: 2px;
+}
+a.button5:before {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1;  /* для больших картинок 0 */
+  padding-right: 5px;
+}
+a.button5[data-twitter]:before {content: url(twitter.jpg);}
+a.button5[data-vk]:before {content: url(vk.jpg);}
+a.button5[data-facebook]:before {content: url(facebook.jpg);}
+a.button5:hover {
+  background: linear-gradient(#ececeb, #eaeaea);
+  box-shadow:
+   inset rgba(0,0,0,.5) 0 -1px 1px,
+   inset rgba(0,0,0,.2) 0 1px,
+   inset #fff 0 2px,
+   rgba(0,0,0,.2) 0 1px 1px;
+}
+a.button5:active {
+  background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.1));
+  box-shadow:
+   inset rgba(0,0,0,.8) 0 1px 2px,
+   inset rgba(0,0,0,.05) 0 -1px 0,
+   #fff 0 1px 1px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* ! Адаптивная компоновка, можно добавить цвет для кадного отдельного блока <div class="column" style="background-color:#f8f9fa"> ! #e6eefa */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 2px; /* padding: 2px; (был 10px) !!! 11.10.20 */
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+/* запрет скачивания фото */
+img {
+    pointer-events: none;
+}
+/*фон*/
+/*body { */
+/* background:  url(); /* Цвет фона и путь к файлу 421939042.jpg*/
+/* color: #fff; /* Цвет текста */
+/* } */
+   hr {
+    border: none; /* Убираем границу */
+    background-color: #dadce0; /* Цвет линии #eeeeee (#dadce0 цвет линии google)*/
+    color: #dadce0; /* Цвет линии для IE6-7 */
+    height: 1px; /* Толщина линии */
+   }
+
+/* кнопка по центру*/
+.button-wrapper{
+  display: flex;
+  justify-content: center;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+/* Стиль inputs */
+input[type=text] {
+    width: 180px;
+    padding: 9px; /* был padding: 12px*/
+    border: 1px solid #ccc;
+    border-radius: 4px; /*не было добавил страку (border-radius: 4px;) закругление радиуса кнопки */
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-size: 16px; /*  не было!  строку добавил шрифт формы font-size: 16px;*/
+}
+
+input[type=submit] {
+    width: 155px;
+    background-color: #2f6fa7;
+    color: white;
+    padding: 9px 20px; /* был padding: 12px*/
+    /*border: none;*/ /*закрыл страку (отсуствие цвета бардюра)*/
+    border: 1px solid #245580; /*страку добавил и цвет бардюра кнопки (#245580;) */
+    border-radius: 4px; /*не было добавил страку (border-radius: 4px;) закругление радиуса кнопки */
+    cursor: pointer;
+    font-size: 16px; /*  не было!  строку добавил шрифт формы font-size: 16px;*/
+}
+
+input[type=submit]:hover {
+    background-color: #275e8e;
+    border: 1px solid #204d74; /*добави страку цвет бардюра кнопки (border: 1px solid #204d74;) */
+}
+
+
+/* Очистить поплавки после столбцов */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/*стрелки*/
+i {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+.up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+/* Адаптивный четырехколоночный макет */
+  * {
+      box-sizing: border-box;
+  }
+
+  /* Create four equal columns that floats next to each other */
+  .column {
+      float: left;
+      width: 25%;
+      padding: 10px;
+      height: 400px; /* Should be removed. Only for demonstration */
+  }
+
+  /* Clear floats after the columns */
+  .row:after {
+      content: "";
+      display: table;
+      clear: both;
+  }
+
+  /* Responsive layout - makes the four columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+      .column {
+          width: 100%;
+      }
+  }
+/* номера страниц */
+a.button27 {
+  position: relative;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  vertical-align: middle;
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+  outline: none;
+  border-radius: 5px;
+  box-shadow: 0 0 0 1px #ddd inset, 0 1px 1px #fff;
+}
+a.button27:hover {
+  background: #dcdcdc linear-gradient(#fff, #dcdcdc);
+  box-shadow: 0 0 0 1px #aaa inset, 0 1px 1px #aaa;
+}
+a.button27:active {
+  background: none;
+    box-shadow: 0 0 0 1px #bbb inset, 0 1px 3px rgba(0,0,0,.5) inset, 0 1px 2px #fff;
+}  
+</style>
+</head>
+<body class="tab tab-font colortextbody main">
+       <a href="mailto:contactus@mytarget.org" class="button5"> E-mail </a>
+       <a href="https://mytarget.org/#payment" class="button5"> Стоимость услуг </a>
+       <a href="contacts.html" class="button5"> Свяжитесь с нами </a>
+       <a href="blog.html" class="button5"> Блог </a>
+       <div class="textcenter">
+       <nav class=""><a href="sitemap.html" class="button15">Карта сайта</a> <a href="tg://resolve?domain=lkkokhan" class="button15">Telegram чат</a></nav>
+       </div>
+       <hr>
+       <div>
+       <p><a href="https://mytarget.org/"><i class="left"></i> <strong>Главная страница</strong></a> / <a href="blog.html"><strong>Блог</strong></a> / <a href="blog.html#sectioncategories"><strong>Категории-раздела</strong></a> / Web-аналитика</p>
+       </div>
+       <hr>
+
+                                 <h1>Web-аналитика</h1>
+                                 <p class=textcenter>Электронная почта: <a href="mailto:contactus@mytarget.org">contactus@mytarget.org</a></p>
+
+      <br>
+             <p>Что же такое веб-аналитика? WA — объединение различных подходов, инструментария, методик, целей для превращения пользователей Сети в клиентов. Проводится сбор, обработка, анализ, растолкование сведений о сайтах и их ЦА.</p>
+          <h2>Для чего нужно применять веб-аналитику</h2>
+             <p>Несмотря на кажущуюся простоту, WA ставит задачу — исследовать естественный трафик на сайт, поиск способов его расширения, расширение ЦА, анализ сущности источников трафика. Результаты этого анализа использует СЕО. Аналитики оценивают, какие запросы приводят посетителей на веб-ресурс, откуда люди приходят, сколько времени и на каких разделах они остаются, чем занимаются. При обнаружении, что один канал работает эффективнее, чем другие, аналитики дают рекомендации по корректировке других каналов — им требуется настройка и анализ.</p>
+             <p>Интернет-агентство MyTarget анализирует, какие запросы люди вводят в поиск, каков объем поискового трафика в общем трафике ресурса, проводит сравнение поведения посетителей из разных источников, время на странице, глубину просмотра, отдачу по целям и пр. Можно сравнить разные поисковики друг с другом, посадочные страницы для всевозможных поисковых запросов, скорректировать семантическое ядро по каждой странице.</p>
+             <p>Исследование реферального трафика проводится при рассмотрении сайтов, с которых перешли посетители. Аналитик выясняет, каким было поведение пользователей с конкретных веб-ресурсов и реферальных источников. Сведения помогают корректировать работу СЕО-специалистов, когда они будут работать с источниками реферального трафика, размещая статьи, материалы на сторонних ресурсах и пр.</p>
+             <p>Проводится анализ прямого трафика — переходов через ввод УРЛ сайта, из Избранного, из закладок. Влиять на эти источники невозможно, но именно это исследование дает представление о самых лояльных клиентах, которые помнят адрес веб-ресурса и заходят на него при необходимости, даже не используя поиск.</p>
+             <p>Счетчики статистики можно настроить так, чтобы автоматически учитывать поисковый трафик по запросам при вводе точного УРЛ или названия сайта, как прямой. Аналитика нужна, чтобы разобраться: приход покупателя на сайт осуществлен из-за успеха работы СЕО-специалиста или по причине лояльности покупателя, который давно знает о бренде. Результаты анализа активности посетителей помогают прийти к выводам о работе веб-ресурса. Цель исследования — оптимизация сайта, чтобы увеличить число целевых действий посетителей.</p>
+             <p>WA изучает:</p>
+             <ul>
+             <li>базовые параметры эффективности — отказы, время на ресурсе, глубину просмотра, откуда пришли, куда вышли посетители;</li>
+             <li>новый и возвратный трафик, их соотношение, эффективность;</li>
+             <li>потоки (пути по сайту);</li>
+             <li>поиск по ресурсу — долю посещений с внутренним поиском, популярные и уточняющие запросы, эффективность посещений с внутренним поиском и без такового;</li>
+             <li>А/В-тестирование — поведение людей на сайте при различных вариантах веб-страниц. По результатам аналитики оставляют вариант, показавший наилучшую эффективность;</li>
+             <li>мультивариантное тестирование — посетители попадают на версию страницы, сформированную автоматически. Максимально оптимизированная страница останется. Но метод не подходит для сайтов с низкой посещаемостью;</li>
+             <li>карты кликов — долевые, тепловые карты — информацию по каждой веб-странице, популярность ссылок в разделах, заметность ссылок, какие элементы неактивны, когда по ним кликают пользователи;</li>
+             <li>просмотр видеозаписей посещений — поведение посетителей, обнаружение сложностей при использовании сайта и пр.</li>
+             </ul>
+          <h2>Как оптимизировать рекламную кампанию (РК)</h2>
+             <p>Оптимизацией РК называют анализ эффективности трафика, детализацию каждого проекта, объявлений. К ней относятся:</p>
+             <ul>
+             <li>сравнение эффективности отдельных источников рекламы — ЯД, Яндекс.Маркет, Гугл Адвордс и пр. Сравнение с применением РОИ или СПО, коэффициента транзакций, применимых для анализа электронной торговли в интернет-магазинах с возможностью отслеживания факта продаже через сайт. Сравнение по коэффициентам целей — записи на тест-драйв, подписка на новости электронного журнала;</li>
+             <li>анализ эффективности разных объявлений, их групп внутри 1 источника по одним и тем же параметрам;</li>
+             <li>управленческие решения о перераспределении бюджетов для повышения эффективности рекламы — для повышения ставок на самые результативные каналы трафика, отключение неэффективных объявлений или источников трафика.</li>
+             </ul>
+             <p>Сведения статистики применяют в автоматизированных системах, с помощью которых управляют РК, ставками объявлений. WA позволяет составлять отчеты, которые интегрируют с данными по расходам из рекламных систем.</p>
+          <h2>Какие подходы используют для сбора статистических данных</h2>
+             <p>Преимущества анализа логов сайта:</p>
+             <ul>
+             <li>отслеживание действий посетителей на ресурсе в деталях — если система основана на счетчиках, то такие сведения доступны в ограниченных количествах или вне доступа;</li>
+             <li>отслеживание прерванных сеансов — посетитель закрыл страницу, не дожидаясь ее загрузки;</li>
+             <li>простота интеграции — не нужна установка дополнительных кодов, чтобы получить анализ из логов сервера.</li>
+             </ul>
+             <p>Преимущества внешних сервисов статистики:</p>
+             <ul>
+             <li>нет зависимости от кэширования, статистику собирают через ДжаваСкрипт;</li>
+             <li>доступны технические параметры ПК пользователей, разрешение экрана, цветность, версия флеш, окна браузера и пр.;</li>
+             <li>генерируются и отслеживаются динамические события;</li>
+             <li>можно зафиксировать проигрывание контента звуковых, видеофайлов и пр.;</li>
+             <li>можно отследить карту кликов, получить видеоролик поведения;</li>
+             <li>междоменное отслеживание — удобно для крупных порталов.</li>
+             </ul>
+          <h2>Комплексный подход</h2>
+             <p>Целесообразно для полного веб-анализа использовать оба подхода при сборе статистики. Но если вам нужно выбрать одно направление, то отдавайте предпочтение счетчикам, которые входят в состав WA с огромным инструментарием. Инструменты анализаторов логов требуют участия специалистов, которые расширят их функционал своими силами.</p>
+             <p class="p">Автор статьи: KLK</p>
+             <br>
+             <ul>
+          <li class="ul"> <a href="otheradvertising.html">Прочая реклама</a> </li>
+             </ul>
+             <ul>
+          <li class="ul"> <a href="notes.html">Заметки</a> </li>
+             </ul>
+             <ul>
+          <li class="ul"> <a href="seo.html">SEO</a> </li>
+             </ul>
+             <br>
+             <br>
+             <br>
+             <blockquote>
+             <div class="textcenter">
+             <p><a href="#" title="Вернуться к началу"><strong>Наверх</strong> <i class="up"></i></a></p>
+             </div>
+             </blockquote>
+             <br>
+             <hr>
+             <p class=p>&#169; 2002-2021 Интернет-агентство MyTarget plc. Продвижение бизнеса в интернете. Все права защищены. | <a href="confidentialitytermsofuse.html">Конфиденциальность и условия использования персональных данных</a></p>
+             <ul>
+                <li class="ul"> <a href="sitemap.html">Карта сайта</a> </li>
+             </ul>
+             <ul>
+                <li class="ul"> <a href="contacts.html">Контакты</a> </li>
+             </ul>
+             <ul>
+               <li  class="ul" id="indeveloperjobs"> <a href="jobs.html">Вакансии</a> </li>
+             </ul>
+             <br>
+             <br>
+             <br>
+      </body>
+</html>
